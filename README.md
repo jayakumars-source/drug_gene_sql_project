@@ -7,41 +7,66 @@ This project focuses on analyzing drug–gene interaction data using SQL. In bio
 The goal of this project is to:
 
 •	Import biological datasets into a relational database
+
 •	Clean and structure the data using SQL
+
 •	Establish relationships between drugs, genes, and their interactions
+
 •	Perform SQL-based exploratory data analysis (EDA)
+
 •	Extract meaningful insights about drug targeting and gene interaction patterns
+
 The analysis highlights patterns such as highly targeted genes, drugs interacting with multiple genes, and high-confidence drug–gene interaction scores.
 This project demonstrates practical skills in data cleaning, relational database design, and SQL-based bioinformatics analysis.
 ________________________________________
 Objectives of the Project
+
 The main objectives of this project include:
+
 •	Import and organize raw bioinformatics datasets into a structured MySQL database
+
 •	Clean and standardize the datasets for analysis
+
 •	Design a relational database schema
+
 •	Establish relationships using primary keys and foreign keys
+
 •	Perform SQL-based exploratory data analysis
+
 •	Identify patterns in drug–gene interactions
+
 •	Generate insights useful for drug discovery and genomic research
 ________________________________________
 Dataset Description
+
 The datasets used in this project contain information about drugs, genes, and their biological interactions.
+
 1. Drugs Dataset (drugs.csv)
+
 Contains information about different drugs and their biological classification.
 
 Column	Description
-drug_claim_name	Original claimed drug name
-drug_name	Standardized drug name
-concept_id	Unique identifier for the drug
-approved	Indicates whether the drug is approved
-immunotherapy	Indicates if the drug is used in immunotherapy
-anti_neoplastic	Indicates if the drug is used in cancer treatment
-nomenclature	Drug naming standard
-source_db_name	Source database
-source_db_version	Version of the source database
 
+drug_claim_name	Original claimed drug name
+
+drug_name	Standardized drug name
+
+concept_id	Unique identifier for the drug
+
+approved	Indicates whether the drug is approved
+
+immunotherapy	Indicates if the drug is used in immunotherapy
+
+anti_neoplastic	Indicates if the drug is used in cancer treatment
+
+nomenclature	Drug naming standard
+
+source_db_name	Source database
+
+source_db_version	Version of the source database
 ________________________________________
 2. Genes Dataset (cleaned_genes.csv)
+
 Contains gene identifiers and gene names.
 
 Column	Description
