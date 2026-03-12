@@ -1,7 +1,11 @@
 Drug–Gene Interaction Analysis using SQL
+
 Project Overview
+
 This project focuses on analyzing drug–gene interaction data using SQL. In bioinformatics research, understanding how drugs interact with genes is essential for identifying therapeutic targets, studying drug mechanisms, and improving treatment strategies.
+
 The goal of this project is to:
+
 •	Import biological datasets into a relational database
 •	Clean and structure the data using SQL
 •	Establish relationships between drugs, genes, and their interactions
