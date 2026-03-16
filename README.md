@@ -325,3 +325,7 @@ This project demonstrates the use of SQL for analyzing drug–gene interaction d
 
 GitHub: [jayakumars-source](https://github.com/jayakumars-source)  
 LinkedIn: [Jayakumar S](https://www.linkedin.com/in/jayakumarsbio05)
+
+## License
+
+This project is intended for **educational and portfolio purposes**.
